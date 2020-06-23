@@ -1,0 +1,153 @@
+#title{
+  background-color:  #ff4c68;
+  color:#fff;
+
+
+}
+h1{
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+.container-fluid{
+  padding:3% 15% 7%;
+
+}
+.navbar{
+  padding:0 0 4rem;
+}
+.navbar-brand{
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+.nav-item{padding:0 20px;}
+.nav-link{font-size: 1.2rem;
+font-family: 'Montserrat-Light', sans-serif;
+}
+.down{
+margin:5% 3% 5% 0;
+}
+.title-img{
+  width:60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right:30%;
+
+}
+@media (max-width:1028px )
+{
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    position:static;
+    transform: rotate(0);
+  }
+}
+#features{
+  padding:7% 15%;
+background-color: white;
+z-index: 1;
+position: relative;
+}
+h3{
+  font-family: 'Montserrat-Bold', sans-serif;
+    font-weight: bold;
+}
+.icon{
+color:#ef8172;
+margin-bottom: 1rem;
+font-size:60px;
+}
+.icon:hover{
+  color:#ff4c68;
+  font-size:100px;
+}
+p{
+  color:#8f8f8f;
+
+}
+.box{
+  text-align:center;
+}
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color:white;
+}
+h2{
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.test-img{
+  width: 10%;
+  border-radius: 50%;
+  margin:20px;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 50%;
+  margin:20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.logo{
+  width: 15%;
+  margin-top: 20px 20px  50px;
+}
+
+#pricing{
+  padding :100px;
+  text-align: center;
+}
+.pricing-col{
+  padding:3% 2%;
+}
+#cta{
+    background-color:#ff4c68;
+    text-align: center;
+}
+.love_life{
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-weight: 1000;
+  padding-left: 15%;
+    padding-right: 15%;
+  font-size: 3rem;
+  line-height: 1;
+  color:white;
+  padding-top: 10%;
+}
+#footer{
+  text-align: center;
+}
+.icons{
+  padding-top: 10%;
+  padding-bottom: 2%;
+}
+.icons_{
+  padding-left: 1%;
+font-size:24px;
+}
+.icons_:hover{
+  color:#ff4c68;
+  font-size:29px;
+}
+.copy{
+    color:#8f8f8f;
+    font-weight:500;
+}
